@@ -56,6 +56,7 @@ public class ProductAdminServlet extends HttpServlet {
                 break;
             case "edit":
                 editProduct(request);
+                break;
             default:
 
         }
