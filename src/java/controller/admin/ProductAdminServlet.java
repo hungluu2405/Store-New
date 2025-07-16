@@ -132,6 +132,7 @@ public class ProductAdminServlet extends HttpServlet {
             // image
             Part part = request.getPart("image");
             String imagePath = null;
+            
             if (part.getSubmittedFileName() == null
                     || part.getSubmittedFileName().trim().isEmpty()
                     || part == null) {
@@ -151,8 +152,8 @@ public class ProductAdminServlet extends HttpServlet {
                 // lay ra cai context path cua project
                 imagePath = request.getContextPath() + "/images/" + image.getName();
             }
-            
-            Product product = Product.builder()
+         
+                Product product = Product.builder()
                                 .id(id)
                                 .name(name)
                                 .quantity(quantity)
@@ -162,6 +163,8 @@ public class ProductAdminServlet extends HttpServlet {
                                 .image(imagePath)
                                 .build();
             pdao.update(product);
+            
+            
         } catch (NumberFormatException | IOException | ServletException ex) {
             ex.printStackTrace();
         } 

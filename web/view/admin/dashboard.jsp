@@ -71,7 +71,7 @@
                                             <tr>
                                                 <th>Id</th>
                                                 <th width="10%">Name</th>
-                                                <th>Image</th>
+<!--                                                <th>Image</th>-->
                                                 <th>Quantity</th>
                                                 <th>Price</th>
                                                 <th>Category</th>
@@ -84,9 +84,9 @@
                                             <tr>
                                                 <td name="id">${p.id}</td>
                                                 <td name="name">${p.name}</td>
-                                                <td name="image">
+<!--                                                <td name="image">
                                                     <img src="${p.image}" width="100" height="100" alt="alt"/>
-                                                </td>
+                                                </td>-->
                                                 <td name="quantity">${p.quantity}</td>
                                                 <td name="price">${p.price}$</td>
                                                 <td name="category">

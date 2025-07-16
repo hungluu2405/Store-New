@@ -19,7 +19,7 @@
             <div class="col-lg-3 col-md-3 col-12">
                 <div class="my-cart">
                     <ul>
-                        <li><a href="#"><i class="fa fa-shopping-cart"></i>My Cart</a>
+                        <li><a href="payment"><i class="fa fa-shopping-cart"></i>My Cart</a>
                             <span>2</span>
                             <div class="mini-cart-sub">
                                 <div class="cart-product">
@@ -41,7 +41,7 @@
                                     <h5>Total <span>£12.00</span></h5>
                                 </div>
                                 <div class="cart-bottom">
-                                    <a class="view-cart" href="cart.html">view cart</a>
+                                    <a class="view-cart" href="payment">view cart</a>
                                     <a href="checkout.html">Check out</a>
                                 </div>
                             </div>
