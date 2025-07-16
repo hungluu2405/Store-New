@@ -103,7 +103,7 @@
             <div class="row bt-2">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="copy-right-area">
-                        <p>&copy; 2022 <strong> Koparion </strong> Mede with ❤️ by <a href="https://hasthemes.com/" target="_blank"><strong>HasThemes</strong></a></p>
+                        <p>&copy; 2025 <strong> 2Hung1Tung </strong> team Made with ❤️</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
